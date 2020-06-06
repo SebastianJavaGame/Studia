@@ -1,0 +1,24 @@
+.root {
+    -fx-background-image:url('back.jpg');
+    -fx-background-size:cover;
+}
+
+#helpButton {
+    -fx-border-color: white;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-background-color: transparent;
+}
+
+#helpButton:pressed {
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+#startApp {
+    -fx-background-color:  #2f2f2fa3;
+    -fx-background-radius: 100;
+}
+
+#startApp:pressed {
+    -fx-background-color: black;
+}
